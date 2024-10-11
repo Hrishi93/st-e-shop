@@ -1,0 +1,50 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #6f6c6c;
+    color: white;
+  }
+  
+  .header-left .logo {
+    height: 50px; /* Adjust the height of the logo as needed */
+  }
+  
+  .header-center {
+    display: flex;
+    align-items: center;
+  }
+  
+  .category-select {
+    margin-right: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .search-bar {
+    width: 300px; /* Adjust the width of the search bar as needed */
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .search-button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #555;
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .search-button:hover {
+    background-color: #777;
+  }
+  
+  .header-right .location-indicator {
+    font-size: 1em;
+  }
+  

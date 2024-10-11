@@ -1,0 +1,73 @@
+.home {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .offer-window {
+    width: 80%; /* Set offer window width to 80% of the screen */
+    max-width: 600px; /* Set a maximum width to maintain readability */
+    margin: 0 auto; /* Center the offer window */
+    position: relative;
+    overflow: hidden; /* Ensure contents don't overflow curved border */
+  }
+
+  .offer-content {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .offer-image {
+    width: 80%;
+    height: 300px;
+    display: block;
+    margin: 0 auto 10px;
+  }
+  
+  .arrow {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .left-arrow {
+    left: 0px;
+  }
+  
+  .right-arrow {
+    right: 0px;
+  }
+  
+  .best-sellers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .item-card {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 150px;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  .item-image {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+  }
+  
+  .discount {
+    color: red;
+  }
+  

@@ -1,0 +1,26 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color:#6f6c6c;
+    color: white;
+  }
+  
+  .navbar-brand a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+  }
+  
+  .navbar-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+  }
+  
+  .navbar-links a:hover {
+    text-decoration: underline;
+  }
+  
